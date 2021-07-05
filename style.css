@@ -1,0 +1,31 @@
+.nav-link{
+	color:blue;
+}
+.nav-item>a:hover {
+	color:yellow;
+}
+.navbar-nav>.active>a{
+color:green;}
+#app-boot-bg-loader, .loading-bg {
+    z-index: 2;
+    background: none;
+}
+#app-boot-bg, #app-boot-bg-loader {
+    background: var(--color-background-canvas);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (-webkit-min-device-pixel-ratio: 2.08333333333333), not all, only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 200dpi)
+html.artdeco {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+@media screen and (max-width: 800px) {
+   .hide{
+   display:none;
+  }
+}
